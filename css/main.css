@@ -1,28 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>SVG Icons</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet">
-</head>
-<body>
-  <ul>
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 
-    <li>
-      <a href="#">
-        <i class="icon">
-        <svg><use xlink:href="images/dino-icons.svg#brachiosaurus"></use></svg>
-        </i>
-        <span>Brachiosaurus</span>
-      </a>
-    </li>
-
-    <li>
-      <a href="#">
-        <i class="icon">
-        <svg><use xlink:href="images/dino-icons.svg#micropachycephalosaurus"></use></svg>
-        </i>
-        <span>Micropachycephalosaurus</span>
-      </a>
-    </li>
+*, *::before, *::after {
+  box-sizing: inherit;
+}
